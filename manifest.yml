@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-simulator-demo
+  host: iot-simulator-demo
+  disk_quota: 1024M
+  services:
+  - iot-simulator-demo-cloudantNoSQLDB
+  - iot-simulator-demo-iotf-service
